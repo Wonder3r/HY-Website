@@ -1,14 +1,16 @@
 *{
     font-family: "Quicksand";
+    color: white;
 }
 
 body{
     background-color: #dc9e22;
+    padding: 2px;
+    margin: 2px;
 }
 
 :any-link{
     text-decoration: none;
-    color: navy;
     font-weight: bold;
 }
 
@@ -25,10 +27,69 @@ nav{
 ul, li{
     list-style-type: none;
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 li{
-    margin-right: 1em;
+    margin-right: 1.5em;
+}
+
+/* Main section */
+
+main{
+    border-bottom: 2px solid;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Top section*/
+
+.top-section{
+    margin: 15px 5px;
+    padding: 15px 5px;
+}
+
+/*middle section*/
+
+.middle-section{
+    justify-content: center;
+    color: black;
+    margin: 20px 5px;
+    padding: 20px 5px;
+}
+
+form{
+    padding: 50px 25px;
+    border: 1px solid;
+    border-radius: 5px;
+    text-align:center;
+    font-size: 18px;
+}
+
+input{
+    color: black;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+button{
+  background: navy;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  line-height: 20px;
+  outline: 0 solid transparent;
+  padding: 10px 15px;
+  width: fit-content;
+  border: 0;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
 }
